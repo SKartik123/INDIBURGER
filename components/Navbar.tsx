@@ -58,13 +58,13 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden bg-burger-dark border-t border-burger-orange p-4 space-y-4"
         >
-          <Link href="#menu" className="block hover:text-burger-orange transition font-semibold">
+          <Link href="#menu" onClick={() => setIsOpen(false)} className="block hover:text-burger-orange transition font-semibold">
             Menu
           </Link>
-          <Link href="#bestseller" className="block hover:text-burger-orange transition font-semibold">
+          <Link href="#bestseller" onClick={() => setIsOpen(false)} className="block hover:text-burger-orange transition font-semibold">
             Bestsellers
           </Link>
-          <Link href="#address" className="block hover:text-burger-orange transition font-semibold">
+          <Link href="#address" onClick={() => setIsOpen(false)} className="block hover:text-burger-orange transition font-semibold">
             Locations
           </Link>
           <a href="tel:+919352210765" className="block bg-burger-orange text-white font-bold px-4 py-2 rounded-lg text-center">

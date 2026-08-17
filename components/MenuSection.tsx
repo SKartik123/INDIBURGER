@@ -16,6 +16,7 @@ const MenuSection = () => {
         fat: 10,
         calories: 350,
         description: 'Classic paneer with traditional spices',
+        badge: '🌱 Veg',
       },
       {
         id: 2,
@@ -27,6 +28,7 @@ const MenuSection = () => {
         fat: 8,
         calories: 280,
         description: 'Traditional potato patty burger',
+        badge: '🌱 Veg',
       },
     ],
     'Chicken': [
@@ -40,6 +42,7 @@ const MenuSection = () => {
         fat: 10,
         calories: 420,
         description: 'Smoky tandoori flavors',
+        badge: '🍗 Chicken',
       },
       {
         id: 4,
@@ -51,6 +54,7 @@ const MenuSection = () => {
         fat: 11,
         calories: 400,
         description: 'Spicy and tangy chicken burger',
+        badge: '🌶️ Spicy',
       },
     ],
     'Mutton': [
@@ -64,6 +68,7 @@ const MenuSection = () => {
         fat: 14,
         calories: 480,
         description: 'Traditional keema preparation',
+        badge: '🐑 Mutton',
       },
       {
         id: 6,
@@ -75,6 +80,7 @@ const MenuSection = () => {
         fat: 12,
         calories: 460,
         description: 'Grilled mutton seekh kabab',
+        badge: '🐑 Mutton',
       },
     ],
     'Sides': [
@@ -88,6 +94,7 @@ const MenuSection = () => {
         fat: 12,
         calories: 220,
         description: 'Fries with Indian masala',
+        badge: '🍟 Side',
       },
       {
         id: 8,
@@ -99,6 +106,7 @@ const MenuSection = () => {
         fat: 13,
         calories: 250,
         description: 'Street style chaat fries',
+        badge: '🍟 Side',
       },
     ],
   }
